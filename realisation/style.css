@@ -1,0 +1,45 @@
+
+h1{
+	color: white;
+	background-color: green;
+}
+.monitorsList{
+	margin: 0;
+	padding: 0;
+}
+
+.addForm-head{
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	color: #000000;
+	
+}
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+/*input-fields*/
+input{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  
+}
+label{
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+a { 
+	color: white !important ; 
+}
+
+
+
+

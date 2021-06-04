@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD-APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="text-center">Monitor gestion</h1>
+  <center> <form id="form" class=" col-md-6 add-form float-left">
+    <div class="form-group">
+      <h2 id="form-head" class="addForm-head">Add product</h2>
+      <label>Brand</label>
+      <input  type="text" name="" value="" class=" form-control monitorbrand">
+    </div>
+      <div class="form-group">
+      <label>Size</label>
+      <input type="text" name="" value="" class="form-control monitorsize">
+    </div>
+    <div class="form-group">
+      <label>Price</label>
+      <input type="text" name="" value="" class="form-control monitorprice"><br>
+    </div>
+     <div class="text-center">
+      <input type="submit" name="" value="Add product" class="submit-exproduit btn btn-success ">
+    
+    
+      <input type="submit" name="" value="Update" class="edit-exproduit btn btn-success" style="visibility: hidden;">
+    
+   
+      <input type="submit" name="" value="cancel update" class="cancel-exproduit btn bg-danger" style="visibility: hidden;">
+    </div>
+    
+  </form>
+</center>
+
+   <table class="monitorsList table table-bordered border-success float-right col-md-6" >
+
+   </table>       
+  </body>
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="monitorapp.js"></script>
+</html>
